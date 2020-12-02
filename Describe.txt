@@ -1,0 +1,19 @@
+Front End:
+
+    Recebe:
+    data= {
+            'action'  : 'retryName', 'acceptName', 'pvtMessage', 'publicMessage', 'newUser';
+            'sender'  : 'system', 'user';
+
+            'content' : name, '...message...';
+    }
+
+Back End:
+
+    Recebe:
+    data= {
+            'action' : 'tryName', 'pvtMessage', 'publicMessage', 'newUser';
+            'sender' : 'user';
+            'receiver': 'system', 'user';
+            'content': name, '...message...';
+    }
